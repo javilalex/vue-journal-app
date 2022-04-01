@@ -1,0 +1,27 @@
+:root {
+  --cs-primary: #2c3e50;
+  --cs-secondary: #1d6042;
+  --cs-success: #198754;
+  --cs-info: #0dcaf0;
+  --cs-warning: #ffc107;
+  --cs-danger: #dc3545;
+  --cs-light: #f8f9fa;
+  --cs-dark: #343a40;
+}
+
+$theme-colors: (
+  "primary": #2c3e50,
+  "secondary": #1d6042,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.pointer {
+  cursor: pointer;
+}
